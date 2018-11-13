@@ -1,0 +1,1 @@
+variable.method(str.trim().replace('a',"mark").concat(3.14).equals(string));

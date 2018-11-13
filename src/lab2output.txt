@@ -1,0 +1,51 @@
+Analysis is performed as follows:
+AFTER SHIFT{states stack: [0, 2] ,symbol stack: [;, i]}
+AFTER SHIFT{states stack: [0, 2, 3] ,symbol stack: [;, i, .]}
+AFTER SHIFT{states stack: [0, 2, 3, 4] ,symbol stack: [;, i, ., i]}
+AFTER SHIFT{states stack: [0, 2, 3, 4, 5] ,symbol stack: [;, i, ., i, (]}
+AFTER SHIFT{states stack: [0, 2, 3, 4, 5, 9] ,symbol stack: [;, i, ., i, (, i]}
+AFTER SHIFT{states stack: [0, 2, 3, 4, 5, 9, 3] ,symbol stack: [;, i, ., i, (, i, .]}
+AFTER SHIFT{states stack: [0, 2, 3, 4, 5, 9, 3, 4] ,symbol stack: [;, i, ., i, (, i, ., i]}
+AFTER SHIFT{states stack: [0, 2, 3, 4, 5, 9, 3, 4, 5] ,symbol stack: [;, i, ., i, (, i, ., i, (]}
+AFTER REDUCE{states stack: [0, 2, 3, 4, 5, 9, 3, 4, 5, 6] ,symbol stack: [;, i, ., i, (, i, ., i, (, A]}
+AFTER SHIFT{states stack: [0, 2, 3, 4, 5, 9, 3, 4, 5, 6, 11] ,symbol stack: [;, i, ., i, (, i, ., i, (, A, )]}
+AFTER SHIFT{states stack: [0, 2, 3, 4, 5, 9, 3, 4, 5, 6, 11, 16] ,symbol stack: [;, i, ., i, (, i, ., i, (, A, ), .]}
+AFTER SHIFT{states stack: [0, 2, 3, 4, 5, 9, 3, 4, 5, 6, 11, 16, 18] ,symbol stack: [;, i, ., i, (, i, ., i, (, A, ), ., i]}
+AFTER SHIFT{states stack: [0, 2, 3, 4, 5, 9, 3, 4, 5, 6, 11, 16, 18, 19] ,symbol stack: [;, i, ., i, (, i, ., i, (, A, ), ., i, (]}
+AFTER SHIFT{states stack: [0, 2, 3, 4, 5, 9, 3, 4, 5, 6, 11, 16, 18, 19, 10] ,symbol stack: [;, i, ., i, (, i, ., i, (, A, ), ., i, (, v]}
+AFTER REDUCE{states stack: [0, 2, 3, 4, 5, 9, 3, 4, 5, 6, 11, 16, 18, 19, 8] ,symbol stack: [;, i, ., i, (, i, ., i, (, A, ), ., i, (, D]}
+AFTER SHIFT{states stack: [0, 2, 3, 4, 5, 9, 3, 4, 5, 6, 11, 16, 18, 19, 8, 13] ,symbol stack: [;, i, ., i, (, i, ., i, (, A, ), ., i, (, D, ,]}
+AFTER SHIFT{states stack: [0, 2, 3, 4, 5, 9, 3, 4, 5, 6, 11, 16, 18, 19, 8, 13, 10] ,symbol stack: [;, i, ., i, (, i, ., i, (, A, ), ., i, (, D, ,, v]}
+AFTER REDUCE{states stack: [0, 2, 3, 4, 5, 9, 3, 4, 5, 6, 11, 16, 18, 19, 8, 13, 8] ,symbol stack: [;, i, ., i, (, i, ., i, (, A, ), ., i, (, D, ,, D]}
+AFTER REDUCE{states stack: [0, 2, 3, 4, 5, 9, 3, 4, 5, 6, 11, 16, 18, 19, 8, 13, 8, 14] ,symbol stack: [;, i, ., i, (, i, ., i, (, A, ), ., i, (, D, ,, D, B]}
+AFTER REDUCE{states stack: [0, 2, 3, 4, 5, 9, 3, 4, 5, 6, 11, 16, 18, 19, 8, 13, 17] ,symbol stack: [;, i, ., i, (, i, ., i, (, A, ), ., i, (, D, ,, A]}
+AFTER REDUCE{states stack: [0, 2, 3, 4, 5, 9, 3, 4, 5, 6, 11, 16, 18, 19, 8, 14] ,symbol stack: [;, i, ., i, (, i, ., i, (, A, ), ., i, (, D, B]}
+AFTER REDUCE{states stack: [0, 2, 3, 4, 5, 9, 3, 4, 5, 6, 11, 16, 18, 19, 20] ,symbol stack: [;, i, ., i, (, i, ., i, (, A, ), ., i, (, A]}
+AFTER SHIFT{states stack: [0, 2, 3, 4, 5, 9, 3, 4, 5, 6, 11, 16, 18, 19, 20, 21] ,symbol stack: [;, i, ., i, (, i, ., i, (, A, ), ., i, (, A, )]}
+AFTER SHIFT{states stack: [0, 2, 3, 4, 5, 9, 3, 4, 5, 6, 11, 16, 18, 19, 20, 21, 16] ,symbol stack: [;, i, ., i, (, i, ., i, (, A, ), ., i, (, A, ), .]}
+AFTER SHIFT{states stack: [0, 2, 3, 4, 5, 9, 3, 4, 5, 6, 11, 16, 18, 19, 20, 21, 16, 18] ,symbol stack: [;, i, ., i, (, i, ., i, (, A, ), ., i, (, A, ), ., i]}
+AFTER SHIFT{states stack: [0, 2, 3, 4, 5, 9, 3, 4, 5, 6, 11, 16, 18, 19, 20, 21, 16, 18, 19] ,symbol stack: [;, i, ., i, (, i, ., i, (, A, ), ., i, (, A, ), ., i, (]}
+AFTER SHIFT{states stack: [0, 2, 3, 4, 5, 9, 3, 4, 5, 6, 11, 16, 18, 19, 20, 21, 16, 18, 19, 10] ,symbol stack: [;, i, ., i, (, i, ., i, (, A, ), ., i, (, A, ), ., i, (, v]}
+AFTER REDUCE{states stack: [0, 2, 3, 4, 5, 9, 3, 4, 5, 6, 11, 16, 18, 19, 20, 21, 16, 18, 19, 8] ,symbol stack: [;, i, ., i, (, i, ., i, (, A, ), ., i, (, A, ), ., i, (, D]}
+AFTER REDUCE{states stack: [0, 2, 3, 4, 5, 9, 3, 4, 5, 6, 11, 16, 18, 19, 20, 21, 16, 18, 19, 8, 14] ,symbol stack: [;, i, ., i, (, i, ., i, (, A, ), ., i, (, A, ), ., i, (, D, B]}
+AFTER REDUCE{states stack: [0, 2, 3, 4, 5, 9, 3, 4, 5, 6, 11, 16, 18, 19, 20, 21, 16, 18, 19, 20] ,symbol stack: [;, i, ., i, (, i, ., i, (, A, ), ., i, (, A, ), ., i, (, A]}
+AFTER SHIFT{states stack: [0, 2, 3, 4, 5, 9, 3, 4, 5, 6, 11, 16, 18, 19, 20, 21, 16, 18, 19, 20, 21] ,symbol stack: [;, i, ., i, (, i, ., i, (, A, ), ., i, (, A, ), ., i, (, A, )]}
+AFTER SHIFT{states stack: [0, 2, 3, 4, 5, 9, 3, 4, 5, 6, 11, 16, 18, 19, 20, 21, 16, 18, 19, 20, 21, 16] ,symbol stack: [;, i, ., i, (, i, ., i, (, A, ), ., i, (, A, ), ., i, (, A, ), .]}
+AFTER SHIFT{states stack: [0, 2, 3, 4, 5, 9, 3, 4, 5, 6, 11, 16, 18, 19, 20, 21, 16, 18, 19, 20, 21, 16, 18] ,symbol stack: [;, i, ., i, (, i, ., i, (, A, ), ., i, (, A, ), ., i, (, A, ), ., i]}
+AFTER SHIFT{states stack: [0, 2, 3, 4, 5, 9, 3, 4, 5, 6, 11, 16, 18, 19, 20, 21, 16, 18, 19, 20, 21, 16, 18, 19] ,symbol stack: [;, i, ., i, (, i, ., i, (, A, ), ., i, (, A, ), ., i, (, A, ), ., i, (]}
+AFTER SHIFT{states stack: [0, 2, 3, 4, 5, 9, 3, 4, 5, 6, 11, 16, 18, 19, 20, 21, 16, 18, 19, 20, 21, 16, 18, 19, 9] ,symbol stack: [;, i, ., i, (, i, ., i, (, A, ), ., i, (, A, ), ., i, (, A, ), ., i, (, i]}
+AFTER REDUCE{states stack: [0, 2, 3, 4, 5, 9, 3, 4, 5, 6, 11, 16, 18, 19, 20, 21, 16, 18, 19, 20, 21, 16, 18, 19, 8] ,symbol stack: [;, i, ., i, (, i, ., i, (, A, ), ., i, (, A, ), ., i, (, A, ), ., i, (, D]}
+AFTER REDUCE{states stack: [0, 2, 3, 4, 5, 9, 3, 4, 5, 6, 11, 16, 18, 19, 20, 21, 16, 18, 19, 20, 21, 16, 18, 19, 8, 14] ,symbol stack: [;, i, ., i, (, i, ., i, (, A, ), ., i, (, A, ), ., i, (, A, ), ., i, (, D, B]}
+AFTER REDUCE{states stack: [0, 2, 3, 4, 5, 9, 3, 4, 5, 6, 11, 16, 18, 19, 20, 21, 16, 18, 19, 20, 21, 16, 18, 19, 20] ,symbol stack: [;, i, ., i, (, i, ., i, (, A, ), ., i, (, A, ), ., i, (, A, ), ., i, (, A]}
+AFTER SHIFT{states stack: [0, 2, 3, 4, 5, 9, 3, 4, 5, 6, 11, 16, 18, 19, 20, 21, 16, 18, 19, 20, 21, 16, 18, 19, 20, 21] ,symbol stack: [;, i, ., i, (, i, ., i, (, A, ), ., i, (, A, ), ., i, (, A, ), ., i, (, A, )]}
+AFTER REDUCE{states stack: [0, 2, 3, 4, 5, 9, 3, 4, 5, 6, 11, 16, 18, 19, 20, 21, 16, 18, 19, 20, 21, 16, 18, 19, 20, 21, 22] ,symbol stack: [;, i, ., i, (, i, ., i, (, A, ), ., i, (, A, ), ., i, (, A, ), ., i, (, A, ), C]}
+AFTER REDUCE{states stack: [0, 2, 3, 4, 5, 9, 3, 4, 5, 6, 11, 16, 18, 19, 20, 21, 16, 18, 19, 20, 21, 22] ,symbol stack: [;, i, ., i, (, i, ., i, (, A, ), ., i, (, A, ), ., i, (, A, ), C]}
+AFTER REDUCE{states stack: [0, 2, 3, 4, 5, 9, 3, 4, 5, 6, 11, 16, 18, 19, 20, 21, 22] ,symbol stack: [;, i, ., i, (, i, ., i, (, A, ), ., i, (, A, ), C]}
+AFTER REDUCE{states stack: [0, 2, 3, 4, 5, 9, 3, 4, 5, 6, 11, 15] ,symbol stack: [;, i, ., i, (, i, ., i, (, A, ), C]}
+AFTER REDUCE{states stack: [0, 2, 3, 4, 5, 7] ,symbol stack: [;, i, ., i, (, S]}
+AFTER REDUCE{states stack: [0, 2, 3, 4, 5, 7, 12] ,symbol stack: [;, i, ., i, (, S, B]}
+AFTER REDUCE{states stack: [0, 2, 3, 4, 5, 6] ,symbol stack: [;, i, ., i, (, A]}
+AFTER SHIFT{states stack: [0, 2, 3, 4, 5, 6, 11] ,symbol stack: [;, i, ., i, (, A, )]}
+AFTER REDUCE{states stack: [0, 2, 3, 4, 5, 6, 11, 15] ,symbol stack: [;, i, ., i, (, A, ), C]}
+AFTER REDUCE{states stack: [0, 1] ,symbol stack: [;, S]}
+Accepted
